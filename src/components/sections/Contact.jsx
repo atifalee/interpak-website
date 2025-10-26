@@ -25,7 +25,7 @@ const Contact = () => {
                                 <Phone className="mr-4" size={24} />
                                 <div>
                                     <p>+92-51-8484908</p>
-                                    <p>Mobile: 0300-9560669 | 0334-5140572</p>
+                                    <p>Mobile: +92-300-9560669 | +92-334-5140572</p>
                                 </div>
                             </div>
 
