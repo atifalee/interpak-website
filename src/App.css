@@ -1,0 +1,37 @@
+/* Animated yellow glow for navbar buttons */
+.navbar-glow {
+    transition: color 0.2s, box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbar-glow:hover,
+.navbar-glow:focus-visible {
+    box-shadow: 0 0 8px 2px #FFD700, 0 0 16px 4px #FFD70066;
+    color: #FFD700;
+    z-index: 1;
+}
+
+/* Additional custom styles can be added here */
+/* Tailwind CSS handles most of the styling */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('/jeanson-wong-QjdkpDmMSQA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Optional: Overlay for readability */
+.bg-overlay {
+    background: rgba(30, 58, 138, 0.5);
+    /* blue overlay, adjust opacity as needed */
+    min-height: 100vh;
+}
